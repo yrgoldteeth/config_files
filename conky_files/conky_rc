@@ -1,0 +1,24 @@
+own_window true
+own_window_type override
+own_window_transparent true
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+use_spacer true
+use_xft
+
+xftfont Vegur Medium-14
+
+xftalpha 1
+
+xftalpha 0.8
+
+double_buffer true
+
+draw_shades true
+alignment bottom_right
+gap_x 25
+gap_y 3
+uppercase true
+
+TEXT
+${color 000000}//////| ${color d9cfbf}${time %a %b %e %I:%M}  ${color bfd3d9} ${execpi 600 ruby ~/.conky_files/weather.rb}   ${color d9cfbf}${execpi 300 ruby ~/.conky_files/gmail.rb}
