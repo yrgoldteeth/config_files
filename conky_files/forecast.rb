@@ -1,4 +1,4 @@
-require '/home/ndfine/.conky_files/google_weather'
+require '/home/foobar/.conky_files/google_weather'
 
 w = GoogleWeather.new
 w.forecast.each do |f|
